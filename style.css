@@ -1,0 +1,98 @@
+img {
+    height: 90px;
+    width: 90px;
+    padding: 9px;
+    border-radius: 267px;
+ }
+
+ #navbar {
+    display: flex;
+ }
+
+ li {
+    list-style: none;
+
+ }
+
+ ul {
+    display: flex;
+    padding: 30px;
+ }
+
+ #navbar li a {
+    margin: 12px;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 20px;
+ }
+
+ #navbar::before {
+    content: "";
+    background-color: rgb(11, 10, 10);
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+ }
+
+ #navbar {
+    position: relative;
+
+ }
+
+ #navbar li a:hover {
+    background-color: white;
+    color: black;
+ }
+
+section{
+    display: flex;
+    padding: 2px 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+ }
+
+ section::before{
+    content: "";
+    position: absolute;
+    background-image: url("juice.jpg") no repeat center center/cover;
+    height:100%;
+    width:100%;
+    z-index: -1;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

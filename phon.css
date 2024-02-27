@@ -1,0 +1,16 @@
+*{
+    border: 2px solid black;
+}
+
+#services{
+    flex-direction: column;
+}
+#navbar{
+    flex-direction: column;
+}
+#home{
+    height:280px;
+}
+#home::before{
+    height:500px;
+}
